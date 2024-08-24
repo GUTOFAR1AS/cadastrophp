@@ -1,0 +1,53 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Sets a default font for better readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light background color for the whole page */
+}
+
+.form_cd {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px; /* Added padding for better spacing */
+    background-color: silver;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center; /* Corrected to center text */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px; /* Increased padding for better user experience */
+    margin-bottom: 10px; /* Added margin for spacing between fields */
+    border: 1px solid #ccc; /* Added border for better visibility */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px; /* Increased padding for better appearance */
+    margin-top: 10px;
+    outline: 0;
+    cursor: pointer;
+    border: none; /* Removed default border */
+    border-radius: 4px; /* Rounded corners for the submit button */
+    background-color: blue; /* Added background color */
+    color: white; /* Changed text color for contrast */
+}
+
+.form_cd h2 {
+    color: blue;
+    margin-bottom: 20px; /* Added margin for spacing below the heading */
+}
